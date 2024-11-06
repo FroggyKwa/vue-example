@@ -10,7 +10,7 @@ const router = createRouter({
       path: '/card/:id',
       name: 'card',
       component: CardDetailView,
-      props: true,
+      props: true
     },
     {
       path: '/',
@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: '/counter',
       name: 'counter',
-      component: CounterView,
+      component: CounterView
     }
   ]
 })
